@@ -204,6 +204,7 @@ func insertdb(rw http.ResponseWriter, t Userinput, j GoogleAPIStruct) {
 	}
 
 	rw.Header().Set("Content-Type", "application/json")
+	rw.WriteHeader(201)
 	rw.Write(js)
 }
 
@@ -343,6 +344,7 @@ func updateUserDetails(rw http.ResponseWriter, req *http.Request, ps httprouter.
 	}
 
 	rw.Header().Set("Content-Type", "application/json")
+	rw.WriteHeader(201)
 	rw.Write(js)
 
 }
