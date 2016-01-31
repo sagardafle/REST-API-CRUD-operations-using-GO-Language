@@ -1,7 +1,7 @@
 #REST API CRUD operations using GO Language
 REST API CRUD operations using go language and mongo database.
 
-This assignment emphasizes theusage of REST APIs in GO programming language. We will use Mongo NoSQL database for data persistence. We shall be performing 4 major CRUD operations like POST, GET, UPDATE and DELETE.
+######This assignment emphasizes theusage of REST APIs in GO programming language. We will use Mongo NoSQL database for data persistence. We shall be performing 4 major CRUD operations like POST, GET, UPDATE and DELETE.######
 
 The connection string to mongodb on MongoLab is : 
 ```
